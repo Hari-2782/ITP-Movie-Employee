@@ -1,0 +1,95 @@
+.navbar-nav .nav-item {
+  margin-right: 10px;
+  /* Set the margin to create space between the navbar items */
+}
+.navbarCustom{
+  margin-top: 10px;
+  .row{
+    margin-bottom: 5px;
+    .btn-danger{
+      a{
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+  }
+}
+.table-hover tbody tr:hover td {
+  background: #0defd9;
+}
+
+.rounded-pill:hover {
+  background-color: white;
+}
+
+.profileImage {
+  width: 30px;
+  height: 30px;
+}
+
+.homepage {
+  text-align: center;
+  background-image: url('https://i.gifer.com/9lZ7.gif');
+  height: 440px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.viewformargin {
+
+  margin-top: 110px;
+  display: inline-block;
+
+  background-image: url('https://i.gifer.com/9lZ7.gif');
+  img {
+    width: 200px;
+    height: auto;
+    margin: auto;
+  }
+
+  button {
+    width: 100%;
+  }
+}
+
+.Logout {
+  border: none;
+  margin-left: 55rem;
+  border-radius: 50%;
+}
+
+.LogoutLink {
+  border: none;
+  border-radius: 50%;
+}
+
+/* table responsive  */
+@media only screen and (max-width: 768px) {
+
+  .table-responsive tbody,
+  .table-responsive tr,
+  .table-responsive td {
+    display: block;
+    text-align: left;
+    border: 1px solid rgb(0, 0, 0);
+  }
+
+  .table-responsive thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  .table-responsive td {
+    position: relative;
+    padding-left: 50%;
+  }
+
+  .table-responsive td::before {
+    content: attr(data-title);
+    position: absolute;
+    left: 6px;
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,52 @@
+.navbar-header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .logout-button {
+    background-color: rgb(243, 8, 8);
+    color: rgb(8, 204, 243); /* Set logout text color to blue */
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout-button:hover {
+    background-color: rgb(220, 0, 0);
+    color: white; /* Change text color on hover to ensure visibility */
+  }
+  
+  .navbar {
+    background-color: rgb(8, 204, 243);
+  }
+  
+  .navbar-links {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .navbar-item {
+    margin-right: 20px;
+  }
+  
+  .navbar-link {
+    color: rgba(19, 1, 1, 0.832);
+    font-weight: bold;
+    padding: 0 5px;
+    text-decoration: none;
+  }
+  
+  .page-heading {
+    text-align: center;
+    color: rgb(20, 2, 2);
+  }
+  
